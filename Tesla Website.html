@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href="style.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="header" id="header"></div>
+    <nav>
+        <img src="C:\Users\ADMIN\Downloads\logo.png" class="logo">
+        <ul>
+            <li><a href="#" id="model 1">Model 1</a></li>
+            <li><a href="#" id="model 2">Model 2</a></li>
+            <li><a href="#" id="model 3">Model 3</a></li>
+            <li><a href="#" id="model 4">Model 4</a></li>
+        <a href="#" class="btn">Reserve now</a>
+    </ul>
+    </nav>
+   <script>
+    var header = document.getElementById("header");
+    var m1 = document.getElementById("model 1");
+    var m2 = document.getElementById("model 2");
+    var m3 = document.getElementById("model 3");
+    var m4 = document.getElementById("model 4");
+    m1.onclick = function(){
+    header.style.backgroundImage = "url(images/image-1.png)";
+}
+    m2.onclick = function(){
+    header.style.backgroundImage = "url(images/image-2.png)";
+}
+    m3.onclick = function(){
+    header.style.backgroundImage = "url(images/image-3.png)";
+}
+    m4.onclick = function(){
+    header.style.backgroundImage = "url(images/image-4.png)";
+}
+ </script>
+</body>
+</html>
